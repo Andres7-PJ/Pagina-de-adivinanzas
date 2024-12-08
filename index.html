@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Adivinanzas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>¡Bienvenido a la Página de Adivinanzas!</h1>
+        <p>Prueba tu ingenio resolviendo estas adivinanzas.</p>
+    </header>
+
+    <main>
+        <div class="riddle">
+            <p><strong>Adivinanza:</strong> Soy más ligero que una pluma, pero ni el hombre más fuerte me puede sostener. ¿Qué soy?</p>
+            <button onclick="revealAnswer('answer1')">Mostrar respuesta</button>
+            <p id="answer1" class="answer">El aliento.</p>
+        </div>
+
+        <div class="riddle">
+            <p><strong>Adivinanza:</strong> Tiene dientes pero no muerde. ¿Qué es?</p>
+            <button onclick="revealAnswer('answer2')">Mostrar respuesta</button>
+            <p id="answer2" class="answer">El peine.</p>
+        </div>
+
+        <div class="riddle">
+            <p><strong>Adivinanza:</strong> Entre más me quitas, más grande me vuelvo. ¿Qué soy?</p>
+            <button onclick="revealAnswer('answer3')">Mostrar respuesta</button>
+            <p id="answer3" class="answer">Un agujero.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Andres Pereira & Camilo. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="JavaScript.js"></script>
+</body>
+</html>
